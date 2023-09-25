@@ -1,0 +1,23 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+                maven {
+                    url "https://repo.spring.io/release"
+                }
+                gradlePluginPortal() // Add this line to include the Gradle Plugin Portal
+            }
+        }
+
+
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "AV Messenger"
+include ':app'
