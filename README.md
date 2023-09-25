@@ -1,0 +1,1 @@
+# This is my Chat Application Code using Java in Android Studio <br> Author: Sumit Singh
